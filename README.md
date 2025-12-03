@@ -53,6 +53,9 @@ Simulation results are saved as RDS files with the following naming convention:
 - `S22results60_E2_2.RDS` → Study 2-2, N=60, effect size=0.2, sample ratio=2:1
 - `S24results120_E5_1.RDS` → Study 2-4, N=120, effect size=0.5, sample ratio=1:1
 
+Simulation results and reproducibility materials will be available at OSF.
+
+## Data
 ### Key Parameters
 
 - **Effect sizes (d):** 0.0, 0.2, 0.5, 0.8
