@@ -48,10 +48,10 @@ create_settings <- function(var1, var2, effect_size, n1, n2, replications = 5000
 # Scenario settings generation (60, 120, 240)
 scenarios_config <- list(
   list(var1 = 4, var2 = 4, n1 = 120, n2 = 120, scenario = 1),
-  list(var1 = 4, var2 = 4, n1 = 144, n2 = 96, scenario = 2),
+  list(var1 = 4, var2 = 4, n1 = 160, n2 = 80, scenario = 2),
   list(var1 = 4, var2 = 2, n1 = 120, n2 = 120, scenario = 3),
-  list(var1 = 4, var2 = 2, n1 = 144, n2 = 96, scenario = 4),
-  list(var1 = 4, var2 = 2, n1 = 96, n2 = 144, scenario = 5)
+  list(var1 = 4, var2 = 2, n1 = 160, n2 = 80, scenario = 4),
+  list(var1 = 4, var2 = 2, n1 = 80, n2 = 160, scenario = 5)
 )
 
 # Simulation function (memory efficient) - Modified to include bfTest
